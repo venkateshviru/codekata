@@ -9,3 +9,7 @@ if(t==r):
     print("yes")
 else:
     print("no")
+
+    
+    
+    
