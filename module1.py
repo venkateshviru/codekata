@@ -1,4 +1,5 @@
-def Repeat(x):
+def main():
+    def Repeat(x):
     size = len(x)
     repeated = []
     for i in range(size):
@@ -16,3 +17,6 @@ l=[]
 l=list(input().split())
 l.sort()
 Repeat(l)
+
+if __name__ == '__main__':
+    main()
