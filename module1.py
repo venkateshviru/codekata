@@ -13,8 +13,6 @@ def Repeat(x):
             print(repeated[i])
 n=int(input())
 l=[]
-for i in range(0,n):
-    a=int(input())
-    l.append(a)
+l=list(input().split())
 l.sort()
 Repeat(l)
