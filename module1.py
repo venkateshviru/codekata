@@ -1,7 +1,7 @@
 def main():
     n=int(input())
     l=[]
-    l=list(input().split())
+    l=list(map(int,input().split()))
     l.sort()
     size = len(l)
     repeated = []
