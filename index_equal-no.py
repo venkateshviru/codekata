@@ -7,4 +7,7 @@ for i in range(0,x):
     l1[i] = int(l1[i])
     if(l1[i]==i):
         l2.append(i)
-print(*l2, sep=" ")
+if(len(l2)==0):
+    print("-1")
+else:
+    print(*l2, sep=" ")
