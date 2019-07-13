@@ -8,4 +8,7 @@ for i in range(x):
     for j in range(k,x):
         if l1[i]==l1[j] and l1[i] not in l2:
             l2.append(l1[i])
-print(l2[0])
+if(len(l2)==0):
+    print("unique")
+else:
+    print(l2[0])
