@@ -1,5 +1,7 @@
-n=int(input())
-k=int(input())
+n = []
+n = input().split()
+k = n[1]
+k = int(k)
 arr = []
 arr = input().split()
 res = []
