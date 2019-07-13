@@ -1,6 +1,7 @@
-def Repeat(x):
+def repeat(x):
     size = len(x)
     repeated = []
+    res = []
     for i in range(size):
         k = i + 1
         for j in range(k, size):
@@ -10,12 +11,10 @@ def Repeat(x):
         print("unique")
     else:
         for i in range (0,len(repeated)):
-            print(repeated[i])
+            res.append(repeated[i])
+            print(*res, sep=" ")
 n=int(input())
-l=[]
-for i in range(0,n):
-    a=int(input())
-    l.append(a)
+l = []
+l = input().split()
 l.sort()
-Repeat(l)
-
+repeat(l)
