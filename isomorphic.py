@@ -15,10 +15,11 @@ def main(string1, string2):
         elif map[ord(string1[i])] != string2[i]:
             return False
     return True
-s = input()
-s1 = input()
-res = []
-if(main(s,s1)==True):
+s = []
+s = input().split()
+s1 = s[0]
+s2 = s[1]
+if(main(s1,s2)==True):
     print("yes")
 else:
     print("no")
