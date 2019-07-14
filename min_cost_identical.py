@@ -20,7 +20,7 @@ try:
     for i in range(len(l2)):
         l2[i] = int(l2[i])
     for i in range(low):
-        if(l1[i]!=l2[i]):
+        if l1[i]!=l2[i] and l2[i] not in l1:
             l3.append(l2[i])
     res = len(l3) + n
     print(res)
