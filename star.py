@@ -4,7 +4,7 @@ l = input().split()
 l1 = []
 for i in range(len(l)):
     l[i] = int(l[i])
-for i in range(1,(len(l)-1)):
+for i in range(0,(len(l)-1)):
     if l[i]>l[i+1]:
         s = l[i]
         l1.append(s)
