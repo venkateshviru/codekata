@@ -1,3 +1,4 @@
+n = int(input())
 l = []
 l = input().split()
 l1 = []
