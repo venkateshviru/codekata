@@ -1,6 +1,6 @@
 l = []
 l = input().split()
-day = ["monday","tuesday","wednesday","thursday","friday"]
+day = ["Monday","Tuesday","Wednesday","Thursday","Friday"]
 for i in range(len(l)):
     if l[i] in day:
         print("no")
