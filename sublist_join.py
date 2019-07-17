@@ -11,4 +11,4 @@ for i in l1:
 for i in range(len(res)):
     res[i] = int(res[i])
 res.sort()
-print(res)
+print(*res, sep=" ")
