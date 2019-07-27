@@ -1,0 +1,15 @@
+n = int(input())
+arr = list(map(int,input().split()))
+n = len(arr)
+m = 1
+l = 1
+for i in range(1, n):
+    if arr[i] > arr[i-1]:
+        l = l+1
+    elif m < l:
+        m = l
+    else:
+        l = 1
+if m < l:
+    m = l
+print(m)
