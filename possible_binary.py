@@ -4,7 +4,7 @@ b = 0
 for i in range(n):
     b += binary[i]
 bi = []
-for i in range(1,b+1):
+for i in range(0,b+1):
     bi.append(str(bin(i).replace('0b','')))
 for i in range(len(bi)):
     a = n - len(list(bi[i]))
